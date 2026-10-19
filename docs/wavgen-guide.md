@@ -37,6 +37,7 @@ Every command takes a mode, that mode's own options, and these shared options.
 | `--synctone` | Wrap the content in a sync tone and silence (see below). |
 | `--invert` | Flip the polarity of every sample. |
 | `--dc-offset <fraction>` | Add a DC bias, as a fraction of full scale from −1.0 to 1.0 (0.1 = 10%). |
+| `--fade-in <ms>` | Ramp the content up from silence over this many milliseconds (raised cosine) instead of starting at full level. Use `50` for a sweep that will go through a lossy codec: every codec has a start-up transient in its first ~40 ms. The sync tone is not faded. |
 
 ## Modes
 

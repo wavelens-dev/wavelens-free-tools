@@ -7,11 +7,11 @@ Two free command-line tools from the [WaveLens](https://wavelens.dev) audio test
 | **wavgen** | Generates WAV test signals: tones, sweeps, level steps, noise, square and sawtooth waves, with an optional sync tone. |
 | **wavchan** | Works with the channels of WAV files: split, pack, inspect, join and mix. |
 
-Version 0.7.0-beta, for Windows (64-bit), macOS (Intel) and Linux (64-bit Intel/AMD). There is nothing to install and no license to set up.
+Version 0.7.1-beta, for Windows (64-bit), macOS (Intel) and Linux (64-bit Intel/AMD). There is nothing to install and no license to set up.
 
 ## Download
 
-Get the zip from the [Releases](https://github.com/wavelens-dev/wavelens-free-tools/releases) page and unzip it anywhere. It is the file named `wavelens-free-tools-…zip`; ignore the "Source code" archives GitHub adds to every release, which hold only this README and the guides. It holds one folder per system, `windows`, `macos` and `linux`. Each has `wavgen`, `wavchan` and a `SHA256SUMS` file. Use the folder for your system, and run the tools from a terminal opened in that folder.
+Get the zip from the [Releases](https://github.com/wavelens-dev/wavelens-free-tools/releases) page and unzip it anywhere. It is the file named `wavelens-v071-beta-free-tools.zip`; ignore the "Source code" archives GitHub adds to every release, which hold only this README and the guides. It holds one folder per system, `windows`, `macos` and `linux`. Each has `wavgen`, `wavchan` and a `SHA256SUMS` file. Use the folder for your system, and run the tools from a terminal opened in that folder.
 
 ### Windows
 
